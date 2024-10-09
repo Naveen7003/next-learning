@@ -1,8 +1,9 @@
+"use client"
 import React from 'react'
 
-const page = () => {
+const page = ({params}) => {
   return (
-    <div>Product having id {productID}</div>
+    <div>this is product {params.productsID}</div>
   )
 }
 
